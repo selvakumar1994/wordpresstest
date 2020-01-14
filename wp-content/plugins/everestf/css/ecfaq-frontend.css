@@ -1,0 +1,361 @@
+.efaq-front-main-container,
+.efaq-front-main-container * {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.efaq-clearfix:before,
+.efaq-clearfix:after {
+	content:'';
+	display:table;
+	clear:both;
+	flex-basis: 0;
+   	order: 1;
+}
+.efaq-front-main-container .efaq-front-title-wrap,
+.efaq-front-main-container .up-down-btn {
+	-moz-transition:all 350ms ease-in-out;
+	-webkit-transition:all 350ms ease-in-out;
+	transition:all 350ms ease-in-out;
+	cursor: pointer;
+}
+.efaq-front-main-container .efaq-front-title {
+	float: left;
+ }
+.efaq-front-main-container .up-down-btn{
+	float: right;
+}
+.efaq-front-main-container ul,
+.efaq-front-main-container ol {
+	list-style: none;
+	margin:0;
+}
+/*============================
+		TEMPLATE-1
+=============================*/
+.efaq-selected-template-template-1 .efaq-tab-settings {
+	border-radius: 5px;
+	overflow: hidden;
+}
+.efaq-selected-template-template-1 .efaq-front-title-wrap{
+	background: #2b3c50;
+	padding: 10px 20px;
+	border-bottom: 1px solid #3c5169;
+}
+.efaq-selected-template-template-1 .efaq-front-title {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+.efaq-selected-template-template-1 .up-down-btn{
+	color: #ffffff;
+}
+.efaq-selected-template-template-1 .efaq-front-content-wrap {
+	padding: 15px 20px;
+    background: #f9f9f9;   
+}
+.efaq-selected-template-template-1 .efaq-front-content {
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+.efaq-selected-template-template-1 .efaq-front-title-wrap:hover,
+.efaq-selected-template-template-1 .efaq-front-wrap-inner.efaq-tab-active .efaq-front-title-wrap{
+	background: #ff756a;
+	border-bottom-color: #ff756a;
+}
+.efaq-selected-template-template-1 .up-down-btn.efaq-btn-active,
+.efaq-selected-template-template-2 .up-down-btn.efaq-btn-active,
+.efaq-selected-template-template-3 .up-down-btn.efaq-btn-active i,
+.efaq-selected-template-template-4 .up-down-btn.efaq-btn-active i,
+.efaq-selected-template-template-5 .up-down-btn.efaq-btn-active i {
+	-moz-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.efaq-selected-template-template-1 .efaq-front-content ul,
+.efaq-selected-template-template-2 .efaq-front-content ul{
+	margin:0 -20px;
+}
+.efaq-selected-template-template-1 .efaq-front-content ul li,
+.efaq-selected-template-template-2 .efaq-front-content ul li{
+	border-bottom: 1px solid #dddddd;
+	padding:10px 20px;
+}
+.efaq-selected-template-template-1 .efaq-front-content ul li:first-child,
+.efaq-selected-template-template-2 .efaq-front-content ul li:first-child{ 
+	padding-top: 0;
+}
+.efaq-selected-template-template-1 .efaq-front-content ul li:last-child,
+.efaq-selected-template-template-2 .efaq-front-content ul li:last-child{ 
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+/*============================
+		TEMPLATE-2
+=============================*/
+.efaq-selected-template-template-2 .efaq-front-title-wrap{
+	background: #59606a;
+	padding: 10px 10px 10px 15px;;
+	border-bottom: 1px solid #3b3f44;
+}
+.efaq-selected-template-template-2 .efaq-front-title {
+	color: #f7f7f7;
+	font-size: 17px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.efaq-selected-template-template-2 .up-down-btn{
+	color: #a2b5d0;
+	background-color:#3b3f44;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+    -moz-box-shadow: 0 0 13px rgba(32, 41, 53, 0.68) inset;
+    -webkit-box-shadow: 0 0 13px rgba(32, 41, 53, 0.68) inset;
+    box-shadow: 0 0 13px rgba(32, 41, 53, 0.68) inset;
+}
+.efaq-selected-template-template-2 .efaq-front-content-wrap {
+	padding: 15px 20px;
+    background: #f9f9f9;   
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2) inset;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2) inset;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2) inset;
+}
+.efaq-selected-template-template-2 .efaq-front-content {
+	color: #333333;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+}
+.efaq-selected-template-template-2 .efaq-front-title-wrap:hover .up-down-btn,
+.efaq-selected-template-template-2 .up-down-btn.efaq-btn-active {
+    color: #ffffff;
+    background-color: #2281ab;
+    -moz-box-shadow: 0 0 13px #035f88 inset;
+    -webkit-box-shadow: 0 0 13px #035f88 inset;
+    box-shadow: 0 0 13px #035f88 inset;
+}
+.efaq-selected-template-template-2 .efaq-front-title-wrap:hover,
+.efaq-selected-template-template-2 .efaq-front-wrap-inner.efaq-tab-active .efaq-front-title-wrap{
+	background: #35ade2;
+	border-bottom-color: #35ade2;
+}
+.efaq-selected-template-template-2 .efaq-front-wrap-inner.efaq-tab-active:last-child{
+	border-bottom: 1px solid #dddddd;
+}
+/*============================
+		TEMPLATE-3
+=============================*/
+.efaq-selected-template-template-3 .efaq-front-wrap-inner {
+	margin-bottom: 8px;
+}
+.efaq-selected-template-template-3 .efaq-front-title-wrap{
+	background-color:#e2e2e2;
+	padding: 8px 10px 8px 55px;
+	position: relative;
+}
+.efaq-selected-template-template-3 .efaq-front-title {
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	float: none;
+	-webkit-transition:all 350ms ease-in-out;
+	-moz-transition:all 350ms ease-in-out;
+	transition:all 350ms ease-in-out;
+}
+.efaq-front-main-container.efaq-selected-template-template-3 .up-down-btn {
+	float: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background:#f44336;
+	color: #ffffff;
+	width: 40px;
+	height: 100%;
+	text-align: center;
+	display: -moz-box;
+	display: -webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 17px;
+}
+.efaq-selected-template-template-3 .up-down-btn i,
+.efaq-selected-template-template-4 .up-down-btn i,
+.efaq-selected-template-template-5 .up-down-btn i{
+	-moz-transition:all 350ms ease-in-out;
+	-webkit-transition:all 350ms ease-in-out;
+	transition:all 350ms ease-in-out;
+}
+.efaq-selected-template-template-3 .efaq-front-content-wrap{
+	border:2px solid #333333;
+	border-top: 0;
+	padding: 15px;
+}
+.efaq-selected-template-template-3 .efaq-front-title-wrap:hover,
+.efaq-selected-template-template-3 .efaq-tab-active .efaq-front-title-wrap {
+	background:#333333;
+	color: #ffffff;
+}
+.efaq-selected-template-template-3 .efaq-front-title-wrap:hover .efaq-front-title,
+.efaq-selected-template-template-3 .efaq-tab-active .efaq-front-title {
+	color: #ffffff;
+}
+.efaq-selected-template-template-3 .efaq-front-content ul{
+	margin:0 -15px;
+}
+.efaq-selected-template-template-3 .efaq-front-content ul li{
+	border-bottom: 1px solid #dddddd;
+	padding:10px 15px;
+}
+.efaq-selected-template-template-3 .efaq-front-content ul li:first-child,
+.efaq-selected-template-template-4 .efaq-front-content ul li:first-child{ 
+	padding-top: 0;
+}
+.efaq-selected-template-template-3 .efaq-front-content ul li:last-child,
+.efaq-selected-template-template-4 .efaq-front-content ul li:last-child{ 
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+/*============================
+		TEMPLATE-4
+=============================*/
+.efaq-selected-template-template-4 .efaq-tab-settings{
+	-moz-box-shadow: 0 0 35px rgba(34, 41, 49, 0.65);
+	-webkit-box-shadow: 0 0 35px rgba(34, 41, 49, 0.65);
+	box-shadow: 0 0 35px rgba(34, 41, 49, 0.65);
+	border-radius: 8px;
+	overflow: hidden;
+	margin:35px;
+	border:3px solid #1c1817;
+}
+.efaq-selected-template-template-4 .efaq-front-title-wrap{
+	background-color:#3b3f4b;
+	padding: 10px 20px;
+	position: relative;
+	border-bottom: 1px solid #222632;
+}
+.efaq-selected-template-template-4 .efaq-front-title {
+	color: #cbcdda;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.efaq-selected-template-template-4 .efaq-front-content-wrap {
+	background-color: #212830;
+	padding: 20px;
+	-moz-box-shadow: 0 2px 8px rgba(6, 6, 6, 0.44) inset;
+	-webkit-box-shadow: 0 2px 8px rgba(6, 6, 6, 0.44) inset;
+	box-shadow: 0 2px 8px rgba(6, 6, 6, 0.44) inset;
+}
+.efaq-selected-template-template-4 .efaq-front-content-wrap .efaq-front-content{
+	color: #9ea9b3;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.efaq-front-main-container.efaq-selected-template-template-4 .up-down-btn{
+    background-color: #555e6d;
+    color: #cbcdda;
+    width: 35px;
+    height: 100%;
+    border-radius: 3px;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.efaq-selected-template-template-4 .efaq-front-content ul li{
+	padding:10px 0px;
+}
+.efaq-selected-template-template-4 .efaq-front-content ul li:before{
+	content: '\f105';
+	position: relative;
+	margin-right: 10px;
+	font-family: 'FontAwesome';
+}
+/*============================
+		TEMPLATE-5
+=============================*/
+.efaq-selected-template-template-5 .efaq-tab-settings{
+	-moz-box-shadow: 0 0 35px rgba(34, 41, 49, 0.65);
+	-webkit-box-shadow: 0 0 35px rgba(34, 41, 49, 0.65);
+	box-shadow: 0 0 35px rgba(34, 41, 49, 0.65);
+	overflow: hidden;
+	margin:35px;
+}
+.efaq-selected-template-template-5 .efaq-front-title-wrap{
+	background-color:#e5634b;
+	padding: 0 20px 0 70px;
+	position: relative;
+	border-bottom: 1px solid #d45d44;
+}
+.efaq-selected-template-template-5 .efaq-front-wrap-inner:first-child .efaq-front-title-wrap {
+	border-top:1px solid #d45d44;
+}
+.efaq-selected-template-template-5 .efaq-front-title {
+	color: #ffffff;
+	font-size: 16px;
+	font-family:  'Abel', sans-serif;
+	font-weight: 400;
+	float: none;
+	padding:10px 0;
+}
+.efaq-selected-template-template-5 .efaq-front-content-wrap {
+	background-color: #494041;
+	padding: 20px 20px 20px 35px;
+	border-bottom: 1px solid #d45d44;
+}
+.efaq-selected-template-template-5 .efaq-front-content-wrap .efaq-front-content{
+	color: #aaa2a0;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+.efaq-front-main-container.efaq-selected-template-template-5 .up-down-btn {
+	float: none;
+	position: absolute;
+	top:0;
+	left: 0;
+	background:#494041;
+	color:  #aaa2a0;
+    width: 35px;
+    height: 100%;
+	text-align: center;
+	display: -moz-box;
+	display: -webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+}
+.efaq-front-main-container.efaq-selected-template-template-5 .up-down-btn:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 22.5px 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #494041;
+    top: 0;
+    right: -40px;
+}
+.efaq-selected-template-template-5 .efaq-front-content ul li{
+	padding:5px 0px;
+}
+.efaq-selected-template-template-5 .efaq-front-content ul li:before{
+	content: '\f10c';
+	position: relative;
+	margin-right: 10px;
+	font-family: 'FontAwesome';
+	font-size: 10px;
+	color:#d45d44;
+}

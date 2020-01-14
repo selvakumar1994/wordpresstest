@@ -1,0 +1,268 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 3, 2017, 3:29:31 PM
+    Author     : User2
+*/
+.efaq-clearfix:before,
+.efaq-clearfix:after {
+	content:'';
+	display:table;
+	clear:both;
+	flex-basis: 0;
+   	order: 1;
+}
+#faq-items h2,
+#faq-display h2 {
+	font-size: 16px;
+}
+.efaq-add-item-wrap .efaq-add-button {
+	background:#36ad5b;
+	color:#ffffff;
+	border-color: #36ad5b;
+	padding:8px 10px;
+	line-height: 1;
+	height:auto;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	margin-top: 8px;
+	-moz-transition:all 350ms ease-in-out;
+	-webkit-transition:all 350ms ease-in-out;
+	transition:all 350ms ease-in-out;
+}
+.efaq-add-item-wrap .efaq-add-button:active,
+.efaq-add-item-wrap .efaq-add-button :focus, 
+.efaq-add-item-wrap .efaq-add-button:hover {
+	background-color:#47c36e;
+	border-color:#47c36e;
+	color: #ffffff;
+	outline: 0;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-moz-transform: none;
+	-webkit-transform: none;
+	transform: none;
+}
+.efaq-add-new-item {
+	margin-top: 20px;
+}
+.efaq-item-header{
+	background: #eee;
+	cursor: pointer;
+}
+.efaq-item-wrap-inner .efaq-item-header-title {
+	float:left;
+	padding:6px 0 6px 8px;
+	font-weight: 500;
+	font-size: 14px;
+}
+.efaq-item-wrap-inner .item.function,
+.efaq-item-inner-header .efaq-item-section-hide-show {
+	float: right;
+}
+.efaq-item-wrap-inner .item.function span {
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	text-align: center;
+	line-height: 32px;
+	color: #ffffff;
+	margin-left: -4px;
+	cursor: pointer;
+}
+.efaq-item-wrap-inner .item.function span.item_sort {
+	background-color: #e2ad33;
+	cursor: move;
+}
+.efaq-item-wrap-inner .item.function span.item_delete {
+	background-color: #FF6969;
+}
+.efaq-item-wrap-inner .item.function span.efaq-item-hide-show {
+	background-color:#0073aa;
+}
+span.efaq-item-hide-show i,
+.efaq-item-section-hide-show i {
+	-moz-transition:all 350ms ease-in-out;
+	-webkit-transition:all 350ms ease-in-out;
+	transition:all 350ms ease-in-out;
+}
+span.efaq-item-hide-show.active-item-show-hide i,
+.efaq-item-section-hide-show.active-item-section-show-hide i  {
+	-moz-transform: rotate(-180deg);
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+}
+.efaq-item-wrap {
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+}
+.efaq-item-body {
+	padding:20px 10px;
+	border-top: 1px solid #dddddd;
+}
+.efaq-item-block-title,
+.efaq-tab.efaq-template-selection {
+	margin-bottom: 15px;
+}
+.efaq-item-section-wrap {
+	border:1px solid #dddddd;
+}
+.efaq-item-title {
+	float:left;
+}
+.efaq-item-inner-header {
+	background: #eee;
+	padding:5px 10px;
+	border-bottom: 1px solid #dddddd;
+	font-weight: 500;
+}
+.efaq-item-inner-body {
+	padding: 10px;
+}
+.efaq-item-section-hide-show {
+	cursor: pointer;
+}
+.efaq-item label,
+.efaq-tab label{
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+.efaq-item input,
+.efaq-item .wp-picker-container {
+	vertical-align: middle;
+}
+.efaq-item input,
+.efaq-item select,
+.efaq-tab select {
+	min-width: 200px;
+}
+.efaq-item-inner-body .efaq-item input, .efaq-display-settings-wrap .efaq-item input{
+	min-width: auto;
+}
+.efaq-item input.efaq_title_text {
+	min-width: 300px;
+}
+.efaq-item {
+	margin-bottom: 7px;
+}
+.ec-style-label p,
+.efaq-style-label p{
+	font-weight: 500;
+    border-bottom: 2px solid #36ad5b;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+}
+.efaq-loader-image {
+	display: inline-block;
+	width: 30px;
+	margin-top: 10px;
+}
+.efaq-loader-image img {
+	width: 30px;
+}
+.efaq-template-select-wrap,
+.efaq-tab-settings-wrap {
+	display: inline-block;
+}
+.appts-img-selector-media{
+	margin-top: 15px;
+}
+.efaq-copied-info {
+	display: inline-block;
+	color: #03c514;
+}
+.appts-img-selector-media img {
+	max-width: 100%;
+}
+.efaq-about-header-section{
+    background: #40CEDA;
+    padding:30px;
+}
+.ec-header-left {
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    padding-top: 0;
+}
+.efaq-about-main-wrapper{
+    border: 1px solid #40CEDA;
+    border-top: 0;
+    background: #fff;
+    margin-right: 20px;
+    margin-top: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.efaq-about-version-wrap{
+	font-size: 14px;
+	margin-top: 5px;
+}
+.efaq-about-header-social-link {
+	float: right;
+	color: #ffffff;
+}
+.efaq-about-follow-us {
+	margin: 0 0 5px;
+}
+.efaq-about-how-to-use-container {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    float: left;
+    /*width: 67%;*/
+}
+.efaq-about-col-three-third h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0 30px;
+}
+.efaq-about-col-one-third {
+	width: 33.3333%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.efaq-about.efaq-about-inlinelist li {
+	display: inline-block;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.efaq-about.efaq-about-inlinelist li:hover {
+    -moz-transform: translate3d(0px, -4px, 0px);
+    -webkit-transform: translate3d(0px, -4px, 0px);
+    transform: translate3d(0px, -4px, 0px);
+}
+/*.efaq-about-upgrade-to-pro {
+	float: right;
+	width: 27%;
+}
+.efaq-about-upgrade-to-pro img{
+	width: 100%;
+}
+.efaq-about-buttons-wrapper {
+	margin: 15px 0;
+	text-align: center;
+}
+.efaq-about-buttons-wrapper a {
+	display: inline-block;
+	margin:0 4px;
+	padding: 10px 25px;
+	background-color: #40CEDA;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.efaq-about-buttons-wrapper a:last-child {
+	margin-top: 10px;
+}*/
